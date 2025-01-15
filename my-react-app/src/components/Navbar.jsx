@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
-    <nav className="flex justify-between text-white  bg-slate-900 shadow-xl shadow-white px-20 py-4">
+    <nav className="flex justify-between text-white  bg-slate-900 shadow-xl  px-20 py-4">
         <div className="flex items-center justify-center ">
          <h1 className="font-bold text-xl ">
           INK STUDIO
@@ -18,7 +18,7 @@ function Navbar() {
         <li><Link to="/services">Services</Link></li>
           
 
-        <button className="bg-white text-black px-6 py-2 rounded-md ">
+        <button className="bg-slate-900 text-white border px-6 py-2 rounded-md ">
          Contact
         </button>
       </ul>

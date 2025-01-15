@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="bg-yellow-100 w-full">
+    <div className="bg-zinc-800 w-full">
       {/* isko do main divide kar diya upar ka part alag neeche ka alag */}
       {/* Main Part */}
       <div className="bg-black text-white flex px-20 shadow-xl ">
