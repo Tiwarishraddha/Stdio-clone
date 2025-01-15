@@ -26,18 +26,19 @@ const Home = () => {
           </div>
         </div>
         {/* right wala part */}
-        <div className="flex justify-center items-end mb-20">
-          <div>
-            <h1 className="bg-red-500 inline-block p-4">
+        <div className="flex justify-center  items-end mb-20">
+          <div >
+            <span className="w-1 h-1 mt-7 ml-2 rounded-full absolute bg-white"></span>
+            <span className="bg-slate-900  transparent border inline-block  rounded-lg p-4 ">
               Currently Taking Appointments
-            </h1>
+            </span>
           </div>
         </div>
       </div>
 
 
       {/* Neeche ka numbers wala part */}
-      <div className="text-white grid grid-cols-2 md:grid-cols-4 px-20 py-12 bg-red-500 ">
+      <div className="text-white grid grid-cols-2 md:grid-cols-4 px-20 py-12 bg-slate-900 ">
           <div className="flex flex-col">
             <h1 className="text-2xl font-bold ">10+</h1>
             <h4 className="text-sm font-light">Years of Experience</h4>

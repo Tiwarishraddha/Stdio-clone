@@ -1,33 +1,26 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="flex justify-between text-white  bg-slate-900 shadow-xl shadow-white px-20 py-4">
         <div className="flex items-center justify-center ">
-        <h1 className="font-bold text-xl ">INK STUDIO</h1>
+         <h1 className="font-bold text-xl ">
+          INK STUDIO
+         </h1>
         </div>
         
 
       <ul className="flex justify-between items-center gap-10 ">
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/gallery">Gallery</a>
-        </li>
-        <li>
-          <a href="/artists">Artists</a>
-        </li>
-        <li>
-          <a href="/services">Services</a>
-        </li>
+        
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="/services">Services</Link></li>
+          
 
         <button className="bg-white text-black px-6 py-2 rounded-md ">
-        Contact
-      </button>
+         Contact
+        </button>
       </ul>
       
     </nav>
